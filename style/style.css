@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+h1 {
+    color: #333;
+}
+h2 {
+    color: #555;
+}
+p {
+    color: #666;
+}
+.cta {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #0288d1;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+}
+.cta:hover {
+    background-color: #0277bd;
+}
+.image {
+    align-items: center;
+}
