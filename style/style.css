@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #000000, #888888); /* Degradado de negro a gris */
+    color: white; /* Para asegurar buena visibilidad con el fondo oscuro */
+}
+.navbar {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 80%;
+    top: 0;
+    z-index: 1000;
+    background-color: transparent; /* Fondo transparente */
+}
+.navbar img {
+    height: 205px; /* Aumentar el tamaño del logo */
+    margin-right: 30px;
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s; /* Transición suave */
+}
+.navbar a.active {
+    color:#71A4A8; /* Cambiar el color de fondo */
+}
+.navbar a:hover {
+    background-color: #555; /* Efecto hover para los enlaces */
+}
+.content {
+    padding: 200px 20px;
+    margin-top: 20px; /* Ajustar para el navbar más grande */
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Espacio entre tarjetas */
+    align-items: center; /* Centrar las tarjetas */
+}
+.card {
+ 
+    padding: 20px;
+    display: flex;
+    width: 80%; /* Ajustar el tamaño de la tarjeta */
+    text-align: left; /* Alinear el texto a la izquierda */
+}
